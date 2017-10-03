@@ -14,7 +14,7 @@
 import sys
 from setuptools import setup, find_packages
 
-NAME = "Moosend.Wrappers.PythonWrapper"
+NAME = "moosend-api-wrapper"
 VERSION = "1.0.0"
 # To install the library, run the following
 #

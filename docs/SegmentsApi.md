@@ -1,4 +1,4 @@
-# Moosend.Wrappers.PythonWrapper.SegmentsApi
+# moosend_api_wrapper.SegmentsApi
 
 All URIs are relative to *https://api.moosend.com/v3*
 
@@ -25,17 +25,17 @@ Adds a new criterion (a rule) to the specified segment.
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.SegmentsApi()
+api_instance = moosend_api_wrapper.SegmentsApi()
 format = 'format_example' # str | 
 mailing_list_id = 'mailing_list_id_example' # str | The ID of the mailing list the specified segment belongs.
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
 segment_id = 'segment_id_example' # str | The ID of the segment to update.
-body = Moosend.Wrappers.PythonWrapper.AddingCriteriaToSegmentsRequest() # AddingCriteriaToSegmentsRequest | 
+body = moosend_api_wrapper.AddingCriteriaToSegmentsRequest() # AddingCriteriaToSegmentsRequest | 
 
 try: 
     # Adding criteria to segments
@@ -81,16 +81,16 @@ Creates a new empty segment (without criteria) for the given mailing list. You m
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.SegmentsApi()
+api_instance = moosend_api_wrapper.SegmentsApi()
 format = 'format_example' # str | 
 mailing_list_id = 'mailing_list_id_example' # str | The ID of the mailing list the specified segment belongs
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
-body = Moosend.Wrappers.PythonWrapper.CreatingANewSegmentRequest() # CreatingANewSegmentRequest | 
+body = moosend_api_wrapper.CreatingANewSegmentRequest() # CreatingANewSegmentRequest | 
 
 try: 
     # Creating a new segment
@@ -135,12 +135,12 @@ Deletes a segment along with its criteria from the mailing list. The subscribers
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.SegmentsApi()
+api_instance = moosend_api_wrapper.SegmentsApi()
 format = 'format_example' # str | 
 mailing_list_id = 'mailing_list_id_example' # str | The ID of the mailing list the specified segment belongs.
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
@@ -189,12 +189,12 @@ Gets detailed information on a specific segment and its criteria. However, it do
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.SegmentsApi()
+api_instance = moosend_api_wrapper.SegmentsApi()
 format = 'format_example' # str | 
 mailing_list_id = 'mailing_list_id_example' # str | The ID of the mailing list the specified segment belongs
 segment_id = 'segment_id_example' # str | The ID of the segment to fetch results for.
@@ -243,12 +243,12 @@ Gets a list of the subscribers that the specified segment returns according to i
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.SegmentsApi()
+api_instance = moosend_api_wrapper.SegmentsApi()
 format = 'format_example' # str | 
 mailing_list_id = 'mailing_list_id_example' # str | The ID of the mailing list the specified segment belongs
 segment_id = 'segment_id_example' # str | The ID of the segment to fetch results for.
@@ -297,12 +297,12 @@ Get a list of all segments with their criteria for the given mailing list.
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.SegmentsApi()
+api_instance = moosend_api_wrapper.SegmentsApi()
 format = 'format_example' # str | 
 mailing_list_id = 'mailing_list_id_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
@@ -349,17 +349,17 @@ Updates the properties of an existing segment. You may update the name and match
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.SegmentsApi()
+api_instance = moosend_api_wrapper.SegmentsApi()
 format = 'format_example' # str | 
 mailing_list_id = 'mailing_list_id_example' # str | The ID of the mailing list the specified segment belongs
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
 segment_id = 'segment_id_example' # str | The ID of the segment to update.
-body = Moosend.Wrappers.PythonWrapper.UpdatingASegmentRequest() # UpdatingASegmentRequest | 
+body = moosend_api_wrapper.UpdatingASegmentRequest() # UpdatingASegmentRequest | 
 
 try: 
     # Updating a segment
@@ -405,18 +405,18 @@ Updates an existing criterion in the specified segment.
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.SegmentsApi()
+api_instance = moosend_api_wrapper.SegmentsApi()
 format = 'format_example' # str | 
 mailing_list_id = 'mailing_list_id_example' # str | The ID of the mailing list the specified segment belongs.
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
 segment_id = 'segment_id_example' # str | The ID of the segment to update.
 criteria_id = 1.2 # float | The ID of the criterion to process.
-body = Moosend.Wrappers.PythonWrapper.UpdatingSegmentCriteriaRequest() # UpdatingSegmentCriteriaRequest | 
+body = moosend_api_wrapper.UpdatingSegmentCriteriaRequest() # UpdatingSegmentCriteriaRequest | 
 
 try: 
     # Updating segment criteria

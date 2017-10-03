@@ -1,4 +1,4 @@
-# Moosend.Wrappers.PythonWrapper.CampaignsApi
+# moosend_api_wrapper.CampaignsApi
 
 All URIs are relative to *https://api.moosend.com/v3*
 
@@ -36,12 +36,12 @@ Provides a basic summary of the results for a sent AB test campaign, separately 
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.CampaignsApi()
+api_instance = moosend_api_wrapper.CampaignsApi()
 format = 'format_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
 campaign_id = 'campaign_id_example' # str | The ID of the requested AB test campaign
@@ -88,12 +88,12 @@ Returns a detailed report of your campaign opens (unique and total) by country.
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.CampaignsApi()
+api_instance = moosend_api_wrapper.CampaignsApi()
 format = 'format_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
 campaign_id = 'campaign_id_example' # str | The ID of the requested campaign
@@ -140,12 +140,12 @@ Provides a basic summary of the results for any sent campaign such as the number
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.CampaignsApi()
+api_instance = moosend_api_wrapper.CampaignsApi()
 format = 'format_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
 campaign_id = 'campaign_id_example' # str | The ID of the requested campaign
@@ -192,12 +192,12 @@ Creates an exact copy of an existing campaign. The new campaign is created as a 
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.CampaignsApi()
+api_instance = moosend_api_wrapper.CampaignsApi()
 format = 'format_example' # str | 
 campaign_id = 'campaign_id_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
@@ -244,15 +244,15 @@ Creates a new campaign in your account. This method does not send the campaign, 
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.CampaignsApi()
+api_instance = moosend_api_wrapper.CampaignsApi()
 format = 'format_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
-body = Moosend.Wrappers.PythonWrapper.CreatingADraftCampaignRequest() # CreatingADraftCampaignRequest | 
+body = moosend_api_wrapper.CreatingADraftCampaignRequest() # CreatingADraftCampaignRequest | 
 
 try: 
     # Creating A Draft Campaign
@@ -296,12 +296,12 @@ Deletes a campaign from your account, draft or even sent.
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.CampaignsApi()
+api_instance = moosend_api_wrapper.CampaignsApi()
 format = 'format_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
 campaign_id = 'campaign_id_example' # str | The ID of the draft campaign to update.
@@ -348,12 +348,12 @@ Returns a list of all campaigns in your account with detailed information. Becau
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.CampaignsApi()
+api_instance = moosend_api_wrapper.CampaignsApi()
 format = 'format_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
 
@@ -398,12 +398,12 @@ Returns a detailed list of statistics for a given campaign based on activity suc
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.CampaignsApi()
+api_instance = moosend_api_wrapper.CampaignsApi()
 format = 'format_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
 campaign_id = 'campaign_id_example' # str | The ID of the requested AB test campaign
@@ -460,12 +460,12 @@ Returns a list of all campaigns in your account with detailed information. Becau
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.CampaignsApi()
+api_instance = moosend_api_wrapper.CampaignsApi()
 format = 'format_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
 page = 1.2 # float | The page number to display results for.
@@ -512,12 +512,12 @@ Returns a list of all campaigns in your account with detailed information. Becau
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.CampaignsApi()
+api_instance = moosend_api_wrapper.CampaignsApi()
 format = 'format_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
 page = 1.2 # float | The page number to display results for.
@@ -570,12 +570,12 @@ Gets a list of your active senders in your account. You may specify any email ad
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.CampaignsApi()
+api_instance = moosend_api_wrapper.CampaignsApi()
 format = 'format_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
 
@@ -620,12 +620,12 @@ Returns a complete set of properties that describe the requested campaign in det
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.CampaignsApi()
+api_instance = moosend_api_wrapper.CampaignsApi()
 format = 'format_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
 campaign_id = 'campaign_id_example' # str | The ID of the requested campaign
@@ -672,12 +672,12 @@ Returns basic information for the specified sender identified by its email addre
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.CampaignsApi()
+api_instance = moosend_api_wrapper.CampaignsApi()
 format = 'format_example' # str | 
 email = 'email_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
@@ -724,12 +724,12 @@ Returns a list with your campaign links and how many clicks have been made by yo
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.CampaignsApi()
+api_instance = moosend_api_wrapper.CampaignsApi()
 format = 'format_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
 campaign_id = 'campaign_id_example' # str | The ID of the requested campaign
@@ -776,16 +776,16 @@ Assigns a scheduled date and time at which the campaign will be delivered.
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.CampaignsApi()
+api_instance = moosend_api_wrapper.CampaignsApi()
 format = 'format_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
 campaign_id = 'campaign_id_example' # str | The ID of the campaign to be scheduled
-body = Moosend.Wrappers.PythonWrapper.SchedulingACampaignRequest() # SchedulingACampaignRequest | 
+body = moosend_api_wrapper.SchedulingACampaignRequest() # SchedulingACampaignRequest | 
 
 try: 
     # Scheduling A Campaign
@@ -830,12 +830,12 @@ Sends an existing draft campaign to all recipients specified in its mailing list
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.CampaignsApi()
+api_instance = moosend_api_wrapper.CampaignsApi()
 format = 'format_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
 campaign_id = 'campaign_id_example' # str | The ID of the draft campaign to be sent.
@@ -882,16 +882,16 @@ Sends a test email of a draft campaign to a list of email addresses you specify 
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.CampaignsApi()
+api_instance = moosend_api_wrapper.CampaignsApi()
 format = 'format_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
 campaign_id = 'campaign_id_example' # str | The ID of the draft campaign to be tested.
-body = Moosend.Wrappers.PythonWrapper.TestingACampaignRequest() # TestingACampaignRequest | 
+body = moosend_api_wrapper.TestingACampaignRequest() # TestingACampaignRequest | 
 
 try: 
     # Testing a campaign
@@ -936,12 +936,12 @@ Removes a previously defined scheduled date and time from a campaign, so that it
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.CampaignsApi()
+api_instance = moosend_api_wrapper.CampaignsApi()
 format = 'format_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
 campaign_id = 'campaign_id_example' # str | The ID of the campaign to be scheduled
@@ -988,16 +988,16 @@ Updates properties of an existing draft A/B campaign in your account. Non-draft 
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.CampaignsApi()
+api_instance = moosend_api_wrapper.CampaignsApi()
 format = 'format_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
 campaign_id = 'campaign_id_example' # str | The ID of the draft campaign to update.
-body = Moosend.Wrappers.PythonWrapper.UpdatingADraftCampaignRequest() # UpdatingADraftCampaignRequest | 
+body = moosend_api_wrapper.UpdatingADraftCampaignRequest() # UpdatingADraftCampaignRequest | 
 
 try: 
     # Updating A Draft Campaign

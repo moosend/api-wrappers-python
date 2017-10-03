@@ -1,4 +1,4 @@
-# Moosend.Wrappers.PythonWrapper.MailingListsApi
+# moosend_api_wrapper.MailingListsApi
 
 All URIs are relative to *https://api.moosend.com/v3*
 
@@ -26,16 +26,16 @@ Creates a new custom field in the specified mailing list.
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.MailingListsApi()
+api_instance = moosend_api_wrapper.MailingListsApi()
 format = 'format_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
 mailing_list_id = 'mailing_list_id_example' # str | The ID of the mailing list where the custom field will belong.
-body = Moosend.Wrappers.PythonWrapper.CreatingACustomFieldRequest() # CreatingACustomFieldRequest | 
+body = moosend_api_wrapper.CreatingACustomFieldRequest() # CreatingACustomFieldRequest | 
 
 try: 
     # Creating a custom field
@@ -80,15 +80,15 @@ Creates a new empty mailing list in your account.
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.MailingListsApi()
+api_instance = moosend_api_wrapper.MailingListsApi()
 format = 'format_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
-body = Moosend.Wrappers.PythonWrapper.CreatingAMailingListRequest() # CreatingAMailingListRequest | 
+body = moosend_api_wrapper.CreatingAMailingListRequest() # CreatingAMailingListRequest | 
 
 try: 
     # Creating a mailing list
@@ -132,12 +132,12 @@ Deletes a mailing list from your account.
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.MailingListsApi()
+api_instance = moosend_api_wrapper.MailingListsApi()
 format = 'format_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
 mailing_list_id = 'mailing_list_id_example' # str | The ID of the mailing list to be deleted.
@@ -184,12 +184,12 @@ Gets a list of your active mailing lists in your account.
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.MailingListsApi()
+api_instance = moosend_api_wrapper.MailingListsApi()
 format = 'format_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
 with_statistics = 'with_statistics_example' # str | Specifies whether to fetch statistics for the subscribers or not. If omitted, results will be returned with statistics by default. (optional)
@@ -240,12 +240,12 @@ Gets a list of your active mailing lists in your account. Because the results fo
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.MailingListsApi()
+api_instance = moosend_api_wrapper.MailingListsApi()
 format = 'format_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
 page = 1.2 # float | The page that you want to get.
@@ -298,12 +298,12 @@ Gets details for a given mailing list. You may include subscriber statistics in 
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.MailingListsApi()
+api_instance = moosend_api_wrapper.MailingListsApi()
 format = 'format_example' # str | 
 mailing_list_id = 'mailing_list_id_example' # str | The ID of the mailing list to be returned.
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
@@ -352,12 +352,12 @@ Removes a custom field definition from the specified mailing list.
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.MailingListsApi()
+api_instance = moosend_api_wrapper.MailingListsApi()
 format = 'format_example' # str | 
 custom_field_id = 'custom_field_id_example' # str | The ID of the custom field to be deleted.
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
@@ -406,17 +406,17 @@ Updates the properties of an existing custom field in the specified mailing list
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.MailingListsApi()
+api_instance = moosend_api_wrapper.MailingListsApi()
 format = 'format_example' # str | 
 custom_field_id = 'custom_field_id_example' # str | The ID of the custom field to be updated.
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
 mailing_list_id = 'mailing_list_id_example' # str | The ID of the mailing list where the custom field belongs.
-body = Moosend.Wrappers.PythonWrapper.UpdatingACustomFieldRequest() # UpdatingACustomFieldRequest | 
+body = moosend_api_wrapper.UpdatingACustomFieldRequest() # UpdatingACustomFieldRequest | 
 
 try: 
     # Updating a custom field
@@ -462,16 +462,16 @@ Updates the properties of an existing mailing list.
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.MailingListsApi()
+api_instance = moosend_api_wrapper.MailingListsApi()
 format = 'format_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
 mailing_list_id = 'mailing_list_id_example' # str | The ID of the mailing list to be updated.
-body = Moosend.Wrappers.PythonWrapper.UpdatingAMailingListRequest() # UpdatingAMailingListRequest | 
+body = moosend_api_wrapper.UpdatingAMailingListRequest() # UpdatingAMailingListRequest | 
 
 try: 
     # Updating a mailing list

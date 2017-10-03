@@ -17,7 +17,7 @@ pip install git+https://github.com/moosend/api-wrappers-python.git
 
 Then import the package:
 ```python
-import Moosend.Wrappers.PythonWrapper
+import moosend_api_wrapper
 ```
 
 ### Setuptools
@@ -31,7 +31,7 @@ python setup.py install --user
 
 Then import the package:
 ```python
-import Moosend.Wrappers.PythonWrapper
+import moosend_api_wrapper
 ```
 
 ## Getting Started

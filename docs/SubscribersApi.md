@@ -1,4 +1,4 @@
-# Moosend.Wrappers.PythonWrapper.SubscribersApi
+# moosend_api_wrapper.SubscribersApi
 
 All URIs are relative to *https://api.moosend.com/v3*
 
@@ -28,16 +28,16 @@ This method allows you to add multiple subscribers in a mailing list with a sing
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.SubscribersApi()
+api_instance = moosend_api_wrapper.SubscribersApi()
 format = 'format_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
 mailing_list_id = 'mailing_list_id_example' # str | The ID of the mailing list to add subscribers to.
-body = Moosend.Wrappers.PythonWrapper.AddingMultipleSubscribersRequest() # AddingMultipleSubscribersRequest | 
+body = moosend_api_wrapper.AddingMultipleSubscribersRequest() # AddingMultipleSubscribersRequest | 
 
 try: 
     # Adding multiple subscribers
@@ -82,16 +82,16 @@ Adds a new subscriber to the specified mailing list. If there is already a subsc
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.SubscribersApi()
+api_instance = moosend_api_wrapper.SubscribersApi()
 format = 'format_example' # str | 
 mailing_list_id = 'mailing_list_id_example' # str | The ID of the mailing list to add the new member.
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
-body = Moosend.Wrappers.PythonWrapper.AddingSubscribersRequest() # AddingSubscribersRequest | 
+body = moosend_api_wrapper.AddingSubscribersRequest() # AddingSubscribersRequest | 
 
 try: 
     # Adding subscribers
@@ -136,12 +136,12 @@ Searches for a subscriber with the specified email address in the specified mail
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.SubscribersApi()
+api_instance = moosend_api_wrapper.SubscribersApi()
 format = 'format_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
 mailing_list_id = 'mailing_list_id_example' # str | The ID of the mailing list where the subscriber belongs.
@@ -190,12 +190,12 @@ Searches for a subscriber with the specified unique id in the specified mailing 
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.SubscribersApi()
+api_instance = moosend_api_wrapper.SubscribersApi()
 format = 'format_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
 mailing_list_id = 'mailing_list_id_example' # str | The ID of the mailing list to search the subscriber in.
@@ -244,12 +244,12 @@ Gets a list of all subscribers in a given mailing list. You may filter the list 
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.SubscribersApi()
+api_instance = moosend_api_wrapper.SubscribersApi()
 format = 'format_example' # str | 
 mailing_list_id = 'mailing_list_id_example' # str | The ID of the mailing list where the subscribers belong.
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
@@ -302,16 +302,16 @@ Removes a subscriber from the specified mailing list permanently (without moving
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.SubscribersApi()
+api_instance = moosend_api_wrapper.SubscribersApi()
 format = 'format_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
 mailing_list_id = 'mailing_list_id_example' # str | The ID of the mailing list to remove the subscriber from.
-body = Moosend.Wrappers.PythonWrapper.RemovingASubscriberRequest() # RemovingASubscriberRequest | 
+body = moosend_api_wrapper.RemovingASubscriberRequest() # RemovingASubscriberRequest | 
 
 try: 
     # Removing a subscriber
@@ -356,16 +356,16 @@ Removes a list of subscribers from the specified mailing list permanently (witho
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.SubscribersApi()
+api_instance = moosend_api_wrapper.SubscribersApi()
 format = 'format_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
 mailing_list_id = 'mailing_list_id_example' # str | The ID of the mailing list to remove the subscribers from.
-body = Moosend.Wrappers.PythonWrapper.RemovingMultipleSubscribersRequest() # RemovingMultipleSubscribersRequest | 
+body = moosend_api_wrapper.RemovingMultipleSubscribersRequest() # RemovingMultipleSubscribersRequest | 
 
 try: 
     # Removing multiple subscribers
@@ -410,15 +410,15 @@ Unsubscribes a subscriber from the account.
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.SubscribersApi()
+api_instance = moosend_api_wrapper.SubscribersApi()
 format = 'format_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
-body = Moosend.Wrappers.PythonWrapper.UnsubscribingSubscribersFromAccountRequest() # UnsubscribingSubscribersFromAccountRequest | 
+body = moosend_api_wrapper.UnsubscribingSubscribersFromAccountRequest() # UnsubscribingSubscribersFromAccountRequest | 
 
 try: 
     # Unsubscribing subscribers from account
@@ -462,16 +462,16 @@ Unsubscribes a subscriber from the specified mailing list. The subscriber is not
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.SubscribersApi()
+api_instance = moosend_api_wrapper.SubscribersApi()
 format = 'format_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
 mailing_list_id = 'mailing_list_id_example' # str | The ID of the mailing list to add subscribers to.
-body = Moosend.Wrappers.PythonWrapper.UnsubscribingSubscribersFromMailingListRequest() # UnsubscribingSubscribersFromMailingListRequest | 
+body = moosend_api_wrapper.UnsubscribingSubscribersFromMailingListRequest() # UnsubscribingSubscribersFromMailingListRequest | 
 
 try: 
     # Unsubscribing subscribers from mailing list
@@ -516,17 +516,17 @@ Unsubscribes a subscriber from the specified mailing list and the specified camp
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.SubscribersApi()
+api_instance = moosend_api_wrapper.SubscribersApi()
 format = 'format_example' # str | 
 campaign_id = 'campaign_id_example' # str | The ID of the campaign that was sent to the specific mailing list.
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
 mailing_list_id = 'mailing_list_id_example' # str | The ID of the mailing list to remove the subscriber from.
-body = Moosend.Wrappers.PythonWrapper.UnsubscribingSubscribersFromMailingListAndASpecifiedCampaignRequest() # UnsubscribingSubscribersFromMailingListAndASpecifiedCampaignRequest | 
+body = moosend_api_wrapper.UnsubscribingSubscribersFromMailingListAndASpecifiedCampaignRequest() # UnsubscribingSubscribersFromMailingListAndASpecifiedCampaignRequest | 
 
 try: 
     # Unsubscribing subscribers from mailing list and a specified campaign
@@ -572,17 +572,17 @@ Updates a subscriber in the specified mailing list. You can even update the subs
 ```python
 from __future__ import print_function
 import time
-import Moosend.Wrappers.PythonWrapper
-from Moosend.Wrappers.PythonWrapper.rest import ApiException
+import moosend_api_wrapper
+from moosend_api_wrapper.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = Moosend.Wrappers.PythonWrapper.SubscribersApi()
+api_instance = moosend_api_wrapper.SubscribersApi()
 format = 'format_example' # str | 
 apikey = 'apikey_example' # str | You may find your API Key or generate a new one in your account settings.
 mailing_list_id = 'mailing_list_id_example' # str | The ID of the mailing list that contains the subscriber
 subscriber_id = 'subscriber_id_example' # str | The id of the subscriber to be updated
-body = Moosend.Wrappers.PythonWrapper.UpdatingASubscriberRequest() # UpdatingASubscriberRequest | 
+body = moosend_api_wrapper.UpdatingASubscriberRequest() # UpdatingASubscriberRequest | 
 
 try: 
     # Updating a subscriber
